@@ -4,37 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>OUtras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Utilizada a tag "code".</p>
-    <pre>
-        <code>
-        num = int(input('Digite um número'))
-        if num % 2 == 0;
-            print(f'O número {num} é PAR')
-        else;
-            print(f'O número {num} é ÍMPAR')
-        print('Fim do programa')
-        </code>
-    </pre>
+    <h1>Trabalhando com listas</h1>
 
-    <h2>Citações</h2>
-    <p>Como diria tal pessoa: <q>água mole em pedra dura tanto bate até que fura. Utilizada a tag "q".</q></p>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Estudar</li>
+    </ol>
 
-    <h2>Citações completas</h2>
-    <p>Segundo Benetida Bernadete, no seu livro formas de colar adesivos:</p>
-    <blockquote cite="https://books.google.com.br/">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corrupti provident minus consectetur enim praesentium earum error facere aut neque! Animi sint itaque vitae mollitia facere quae odio rerum reprehenderit!
-    </blockquote>
+    <h2>Listas não ordenadas</h2>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Arroz</li>
+        <li>Tomate</li>
+    </ul>
 
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. E estou amando.  Utilizada a tag "abbr".</p>
+    <h2>Juntando listas versão 1.0</h2>
+    <ol>
+        <li>Países que quero conhecer</li>
+        <ol>
+         <li>Inglaterra</li>
+         <li>Itália</li>
+         <li>Espanha</li>
+        </ol>
+        <li>Países que já conheci</li>
+        <ul>
+            <li>Brasil</li>
+            <li>Republica Dominicana</li>
+            <li>Paraguai</li>
+        </ul>
+    </ol>
 
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">estou aprendendo a criar coisas. Utilizada a tag "bdo".</bdo></p>
+    <h2>Minhas séries favoritas</h2>
+    <ol>
+        <li>Greys Anatomy</li>
+        <ul>
+            <li>Meredith</li>
+            <li>Derek</li>
+        </ul>
+        <li>You</li>
+        <ul>
+            <li>Joe</li>
+            <li>Love</li>
+        </ul>
+        <li>Vikings</li>
+        <ul>
+            <li>Ragnar</li>
+            <li>Lagerta</li>
+        </ul>
+        <li>Peaky Blinders</li>
+        <ul>
+            <li>Thomas</li>
+            <li>Rose</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+
+        <dt>HTML</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates facere cumque pariatur molestias unde, recusandae ducimus ipsam, molestiae quis sapiente aut corporis ea voluptas cum officiis a repellendus praesentium earum?</dd>
+
+        <dt>CSS</dt>
+        <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quas ipsa hic excepturi ad illum distinctio illo animi nisi eveniet corrupti vitae odit, ducimus atque. Numquam accusantium nihil odio aliquam.</dd>
+    </dl>
 </body>
 </html>
