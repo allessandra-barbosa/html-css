@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio 07</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+
+    <p>Você esá vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.</p>
+
+    <picture>
+        <source media="(mix-width: 500px)" srcset="imagens/imagem-p.png" type="Image/png">
+        <source media="(max-width: 850px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
