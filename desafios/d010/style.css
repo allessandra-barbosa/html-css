@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #B9FFB5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2D8029;
+    color: white;
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+main {
+    background-color: white;
+}
+
+section#historia > article{
+    background-color: #2D8029;
+}
+
+section#historia > h1{
+    font-family: android, serif;
+    font-size: 30px;
+    color: #2D8029;
+}
+
+section#historia > h2{
+    font-family: android, serif;
+    font-size: 25px;
+    background-color: #e8ffe6;
+    color: #2D8029;
+}
+
+section#extra {
+    background-color: #94CD91;
+}
+
+footer {
+    background-color: #1d501a;
+    color: white;
+}
