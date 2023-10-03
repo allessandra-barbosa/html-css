@@ -8,6 +8,7 @@
 body {
     background-color: #B9FFB5;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 header {
@@ -25,6 +26,8 @@ nav > a{
 
 main {
     background-color: white;
+    margin: 20px;
+    padding: 15px;
 }
 
 section#historia > article{
@@ -45,10 +48,27 @@ section#historia > h2{
 }
 
 section#extra {
+    font-size: 15px;
+    font-weight: bold;
     background-color: #94CD91;
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+section#extra > h2{
+    font-size: 15px;
+    background-color: #2D8029;
+    color: white;
+    margin-inline: -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer {
     background-color: #1d501a;
     color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
 }
